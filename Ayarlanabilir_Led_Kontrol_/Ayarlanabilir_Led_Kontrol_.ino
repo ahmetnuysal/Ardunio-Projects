@@ -3,8 +3,8 @@ const int switchPin = 5;
 const int onOffSwitchStateSwitchPin = 4; 
 const int pot = A0;
 int switchState = 0;
-int onOffSwitchState = 0;  // current state of the on/off switch
-int previousOnOffSwitchState = 0; // previous position of the on/off switch
+int onOffSwitchState = 0;  // açma/kapama anahtarının mevcut durumu
+int previousOnOffSwitchState = 0; // açma/kapama anahtarının önceki konumu
 int potdeger;
 int led1 = 0; 
 int led2 = 1; 
